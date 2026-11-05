@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CuyMercado · Soporte</title>
+<link rel="icon" href="icono.png">
+<style>
+  :root { --texto: #1c1c1e; --suave: #5f6368; --verde: #15803d; --fondo: #ffffff; --linea: #e5e5ea; }
+  @media (prefers-color-scheme: dark) {
+    :root { --texto: #f2f2f7; --suave: #aeaeb2; --verde: #4ade80; --fondo: #111113; --linea: #2c2c2e; }
+  }
+  body { margin: 0; background: var(--fondo); color: var(--texto);
+         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; gap: 16px; align-items: center; margin-bottom: 8px; }
+  header img { width: 72px; height: 72px; border-radius: 16px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0; }
+  .sub { color: var(--suave); margin: 0; }
+  h2 { font-size: 20px; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--linea); }
+  a { color: var(--verde); }
+  .contacto { font-size: 20px; font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icono.png" alt="">
+    <div>
+      <h1>CuyMercado</h1>
+      <p class="sub">Precios, recetas y canasta · Perú</p>
+    </div>
+  </header>
+
+  <h2>¿Qué es?</h2>
+  <p>CuyMercado te ayuda a consultar precios mayoristas de referencia de alimentos en Perú, ver su evolución con la fecha de cada reporte, planificar recetas y armar tu canasta de compras. También reúne información pesquera, vedas y alertas sanitarias de fuentes públicas.</p>
+  <p>Es una app independiente: <strong>no es una aplicación oficial</strong> de MIDAGRI, PRODUCE, DIGESA, MINSA, EMMSA ni de ninguna otra entidad. Los datos provienen de publicaciones oficiales de acceso público y son referenciales.</p>
+
+  <h2>Contacto y soporte</h2>
+  <p>¿Encontraste un error, un precio que no coincide con su fuente o tienes una sugerencia? Escríbenos:</p>
+  <p class="contacto"><a href="mailto:cuycoders@gmail.com">cuycoders@gmail.com</a></p>
+  <p>También puedes abrir una incidencia en <a href="https://github.com/0sw2ld0/cuymercado-data/issues">GitHub</a>. No publiques información personal o confidencial en una incidencia pública.</p>
+
+  <h2>Preguntas frecuentes</h2>
+  <p><strong>¿Los precios son de hoy?</strong> Cada precio muestra la fecha del reporte del que proviene y su antigüedad. Las fuentes no publican todos los días ni a la misma hora, por lo que el último dato puede ser de días anteriores.</p>
+  <p><strong>¿Por qué un precio es distinto al de mi puesto?</strong> Son precios mayoristas promedio de referencia; cada puesto, calidad y presentación puede tener un precio diferente.</p>
+  <p><strong>¿Necesita internet?</strong> Para descargar datos nuevos. Después puedes consultar la última copia descargada sin conexión.</p>
+  <p><strong>¿Una alerta o veda está al día?</strong> La información es parcial y remite siempre a la fuente oficial. Consulta a las autoridades competentes antes de tomar decisiones.</p>
+
+  <h2>Privacidad</h2>
+  <p>Lee la <a href="privacidad.html">política de privacidad</a>.</p>
+</main>
+</body>
+</html>
